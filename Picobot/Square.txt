@@ -1,0 +1,14 @@
+# Initialization
+0 ***x -> S 0
+0 *x*S -> E 0
+0 *E*S -> X 1
+
+# Loop path
+
+# Move upwards
+1 x*** -> N 1
+1 N*** -> W 2
+
+# Sweep downwards
+2 ***x -> S 2
+2 ***S -> W 1
