@@ -1,0 +1,24 @@
+# Name: Jason Wong
+# I pledge my honor that I have abided by the Stevens Honor System.
+
+
+# Initiation: go all the way west
+0 **x* -> W 0
+0 **W* -> X 1
+
+# Sweep up
+1 x*** -> N 1
+1 N**x -> X 2
+# When hit in the west-most corner
+1 N*WS -> X 4
+
+# Sweep down
+2 ***x -> S 2
+2 x**S -> N 3
+
+# Move left to new column
+3 **x* -> W 1
+
+# Move all the way east
+4 *x** -> E 4
+4 NE*S -> W 1
