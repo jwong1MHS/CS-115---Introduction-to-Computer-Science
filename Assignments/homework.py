@@ -1,3 +1,11 @@
+#
+# Jason Wong
+#
+# Homework 09/09/19
+#
+# I pledge my honor that I have abided by the Stevens Honor System.
+
+
 from math import factorial, sqrt
 from functools import reduce
    
